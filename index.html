@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Assets/CSS/style.css">
+    <title>Weather Forecast Site</title>
+</head>
+
+<body>
+    <header class="flex-parent">
+        <h1>Weather Dashboard</h1>
+    </header>
+    <content class="flex-parent">
+        <search class="flex-child-1">
+            <h2 class="h2">Search for a City</h2>
+            <input id="txt" class="textarea" type="text" placeholder="Search"></input>
+            <button id='getData' class="search-btn" type="button" value="submit">Search</button>
+            <div>
+                <li id="recent">
+                    <!-- <ul class="other-city"></ul>
+                    <ul class="other-city"></ul> -->
+                </li>
+            </div>
+        </search>
+        <item class="flex-child-2">
+            <div class="current-day" id="picture">
+                <div class="current-day-content">
+                    <div class="today">City: <span class="current-city"></span></div>
+                    <div class="today">Date: <span class="current-date"></span></div>
+                    <div class="today">Temperature: <span class="current-temp"></span></div>
+                    <div class="today ">Wind Speed: <span class="current-wind"></span></div>
+                    <div class="today">Humidity: <span class="current-humidity"></span></div>
+                    <button type="button" class="five-day-btn">Get five day forecast</button>
+                </div>
+            </div>
+            <div class="flex-inline">
+                <div class="box">
+                    <div class="date five-day-item">date</div>
+                    <div class="icon" placeholder="icon"></div>
+                    <div class="temp five-day-item">temp</div>
+                    <div class="wind five-day-item">wind</div>
+                    <div class="humidity five-day-item">humidity</div>
+                </div>
+                <div class="box">
+                    <div class="date five-day-item">date</div>
+                    <div class="icon" placeholder="icon"></div>
+                    <div class="temp five-day-item">temp</div>
+                    <div class="wind five-day-item">wind</div>
+                    <div class="humidity five-day-item">humidity</div>
+                </div>
+                <div class="box">
+                    <div class="date five-day-item">date</div>
+                    <div class="icon" placeholder="icon"></div>
+                    <div class="temp five-day-item">temp</div>
+                    <div class="wind five-day-item">wind</div>
+                    <div class="humidity five-day-item">humidity</div>
+                </div>
+                <div class="box">
+                    <div class="date five-day-item">date</div>
+                    <div class="icon" placeholder="icon"></div>
+                    <div class="temp five-day-item">temp</div>
+                    <div class="wind five-day-item">wind</div>
+                    <div class="humidity five-day-item">humidity</div>
+                </div>
+                <div class="box">
+                    <div class="date five-day-item">date</div>
+                    <div class="icon" placeholder="icon"></div>
+                    <div class="temp five-day-item">temp</div>
+                    <div class="wind five-day-item">wind</div>
+                    <div class="humidity five-day-item">humidity</div>
+                </div>
+            </div>
+        </item>
+
+    </content>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="./Assets/JS/script.js"></script>
+</body>
+
+</html>

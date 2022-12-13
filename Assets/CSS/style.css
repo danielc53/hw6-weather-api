@@ -1,0 +1,183 @@
+:root {
+    margin-left: 10%;
+    margin-right: 10%;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: smaller;
+   
+}
+
+body header {
+    background-color: blue;
+    color: white;
+    justify-content: center;
+}
+
+body content{
+    background-color: rgb(209, 229, 255);
+    min-height: 700px;
+}
+
+
+.h2{
+
+    text-align: center;
+}
+
+.textarea {
+    resize: none;
+}
+
+.flex-parent {
+    display: flex;
+}
+
+.flex-child-1 {
+    flex-grow: .25;
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+}
+
+.flex-child-2 {
+    flex-grow: .75;
+    height: fit-content;
+    
+    flex-direction: row;
+   
+    margin: 1%;
+ 
+    width: 50%;
+    height: 250px;
+}
+
+.textarea {
+    
+    margin: 2% 0 2% 0;
+}
+
+.search-btn {
+    background-color: rgb(0, 195, 255);
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.search-btn:hover {
+    background-color: rgb(159, 233, 255);
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: 250ms;
+}
+
+.search-btn:focus {
+    background-color: rgb(159, 233, 255);
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: 250ms;
+    outline: 1px solid black;
+}
+
+.today {
+    padding: 10px;
+}
+
+
+
+.box {
+    width: 100px;
+    height: 200px;
+    min-width: 100px;
+    min-height: 100px;
+    flex-grow: 1;
+    margin: 5px;
+    background-color: rgb(185, 185, 185);
+    padding-bottom: 20px;
+}
+
+.icon {
+    background-color: white;
+    margin: 10px;
+    padding: 10px 10px 5px 10px;
+    outline: none;
+    border-radius: 20px;
+    height: 15px;
+}
+
+.five-day-item {
+    margin: 10px;
+    padding: 10px 10px 5px 10px;
+    background-color: rgb(207, 205, 205);
+    outline: none;
+    border-radius: 20px;
+}
+
+
+
+.current-day {
+    /* border: rgb(0, 0, 0) solid 1px; */
+    height: 400px;
+    margin-bottom: 20px;
+    background-image: url(../Image/clouds-current-day.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.current-day-content {
+    min-width: 450px;
+    max-width: 650px;
+    min-height: 350px;
+    margin-left: 5%;
+    margin-top: 2%;
+    background-color: rgba(255, 255, 255, 0.692);
+    
+}
+
+.flex-inline {
+    display: flex;
+    min-height: 150px;
+    min-width: 150px;
+}
+
+li {
+    list-style: none;
+    border-top: 1px solid black;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.other-city {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    height: 25px;
+    margin-top: 15px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 5px;
+    background-color: rgb(226, 226, 226);
+    justify-content: center;
+}
+
+.five-day-btn {
+    margin-left: 40%;
+    margin-top: 7%;
+}
